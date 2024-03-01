@@ -1,0 +1,9 @@
+package dev.mark.savingsAndCreditManagementSystem.repository;
+
+import dev.mark.savingsAndCreditManagementSystem.appStructure.repositoryInterface.SocialFundsUsageRepository;
+import dev.mark.savingsAndCreditManagementSystem.model.ComscamSocialFundsUsageRecord;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ComscamSocialFundsUsageRepo extends SocialFundsUsageRepository<ComscamSocialFundsUsageRecord> {
+}
