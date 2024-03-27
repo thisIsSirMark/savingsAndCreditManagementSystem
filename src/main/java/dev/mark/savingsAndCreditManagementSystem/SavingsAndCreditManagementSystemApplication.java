@@ -11,6 +11,7 @@ public class SavingsAndCreditManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SavingsAndCreditManagementSystemApplication.class, args);
+		System.out.println("it works");
 	}
 
 	@Bean(name = "currentDate")
